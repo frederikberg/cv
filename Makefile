@@ -1,7 +1,7 @@
 .PHONY: build data clean
 
 # Where experience.yaml and accomplishments.yaml come from; any URL curl reads, file:// included.
-WEBSITE_DATA ?= https://raw.githubusercontent.com/frederikb96/frederikberg/main/src/data
+WEBSITE_DATA ?= https://raw.githubusercontent.com/frederikberg/frederikberg/main/src/data
 LATEXMK ?= latexmk -pdfxe
 
 build: data
