@@ -6,7 +6,7 @@ My CV, written in LaTeX. It is also a perfectly good starting point for your own
 
 ![Preview](preview.png)
 
-It is a one-page, two-column layout: a grey sidebar with contact details, a skill bubble diagram and education, and a main column with a short bio, a dated experience list and certifications. `cv.tex` holds the content, `twentysecondcv.cls` holds the design. The experience list and the certification line are in `experience.tex` and `certifications.tex`, which `make` generates from the data files of my [website](https://github.com/frederikb96/frederikberg), so both show the same positions.
+It is a one-page, two-column layout: a grey sidebar with contact details, a skill bubble diagram and education, and a main column with a short bio, a dated experience list and certifications. `cv.tex` holds the content, `twentysecondcv.cls` holds the design. The experience list and the certification line are in `experience.tex` and `certifications.tex`, which `make` generates from the data files of my [website](https://github.com/frederikberg/frederikberg), so both show the same positions.
 
 ## Use it in Overleaf
 
